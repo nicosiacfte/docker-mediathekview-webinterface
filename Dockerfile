@@ -28,7 +28,7 @@ RUN \
 
 
 # Define software download URLs.
-ENV MEDIATHEKVIEW_URL=https://download.mediathekview.de/stabil/MediathekView-$MEDIATHEK_VERSION-linux.tar.gz
+ENV MEDIATHEKVIEW_URL=https://download.mediathekview.de/stabil/MediathekView-${MEDIATHEK_VERSION}-linux.tar.gz
 ENV FFMPEG_URL=https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
 ENV FFMPEG_VERSION=4.2.2
 
