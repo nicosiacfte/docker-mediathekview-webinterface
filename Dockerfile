@@ -42,6 +42,7 @@ RUN ln -s /opt/ffmpeg/ffmpeg-${FFMPEG_VERSION}-amd64-static/ffprobe /usr/bin/
 
 # download Mediathekview
 RUN mkdir -p /opt/MediathekView
+RUN echo ${MEDIATHEKVIEW_URL}
 RUN wget -q ${MEDIATHEKVIEW_URL} -O MediathekView.tar.gz
 RUN tar xf MediathekView.tar.gz -C /opt
 
