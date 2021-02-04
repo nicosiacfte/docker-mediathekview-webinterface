@@ -19,11 +19,7 @@ The X11rdp feature is inherited from [https://github.com/jlesage/docker-baseimag
 The Github repository is automatically build by Docker Hub.
 You can pull it from Docker Hub:
 ```
-docker pull conrad784/mediathekview-webinterface:latest
-```
-Some older versions can also be acquired by using e.g.
-```
-docker pull conrad784/mediathekview-webinterface:13.3.0-3
+docker pull funsa/mediathekvie:latest
 ```
 
 ## Running it
