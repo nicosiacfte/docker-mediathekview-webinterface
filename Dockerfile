@@ -9,7 +9,7 @@ ENV MEDIATHEK_VERSION=latest
 WORKDIR /tmp
 
 # Install dependencies.
-RUN apt-get update
+RUN apt-get update -y
 RUN apt-get upgrade -y
 # Build deps
 RUN apt-get install -y apt-utils locales
